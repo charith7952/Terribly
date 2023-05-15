@@ -1,4 +1,5 @@
 Components
+
 1.App: This is the main component that renders the form, the chart, and the export button. It uses the useState hook to manage the state of the word frequency data.
 
 2.BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, and ResponsiveContainer: These are components from the Recharts library, which is used to render the bar chart. The BarChart component is the top-level container for the chart, while the Bar component represents each bar in the chart. The XAxis and YAxis components represent the x and y axes of the chart, respectively. The CartesianGrid component adds a grid to the chart, while the Tooltip component shows a tooltip when the user hovers over a bar. The Legend component adds a legend to the chart, and the ResponsiveContainer component ensures that the chart resizes to fit its container.
@@ -6,6 +7,7 @@ Components
 3.CSVLink: This is a component from the react-csv library, which is used to download the histogram data as a CSV file. It takes a data prop, which should be an array of objects, and a filename prop, which is the name of the CSV file to be downloaded.
 
 Libraries and Plugins
+
 1.React: A JavaScript library for building user interfaces.
 
 2.Recharts: A charting library for React that allows you to create beautiful and responsive charts.
