@@ -8,7 +8,7 @@ const App = () => {
   const fetchTextFile = async () => {
     const response = await fetch('https://www.terriblytinytales.com/test.txt');
     const text = await response.text();
-    const words = text.match(/\b\w+\b/g); // regex to get all words
+    const words = text.match(/\b\w+\b/g);
     const frequency = {};
 
     words.forEach(word => {
